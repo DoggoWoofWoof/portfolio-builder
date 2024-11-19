@@ -1,0 +1,43 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative; /* Change to relative to avoid overlap */
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for a lifted effect */
+}
+
+.footer a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #a5a5a5;
+}
+
+.footer-info {
+  margin-top: 10px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  font-size: 0.9em;
+  color: #f0f0f0;
+  transition: color 0.3s;
+}

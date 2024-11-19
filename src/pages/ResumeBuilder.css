@@ -1,0 +1,97 @@
+/* src/pages/ResumeBuilder.css */
+
+.resume-builder {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="url"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  input[type="url"]:focus,
+  input[type="text"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .submit-button,
+  .skip-button {
+    display: inline-block;
+    width: 48%;
+  }
+  
+  button.skip-button {
+    background-color: #ffa500;
+  }
+  
+  button.skip-button:hover {
+    background-color: #ff8c00;
+  }
+  

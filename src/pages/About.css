@@ -1,0 +1,38 @@
+/* src/pages/About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-container h1,
+  .about-container h2 {
+    color: #333;
+  }
+  
+  .about-container p {
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  .client-logos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .client-logos img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,66 @@
+/* src/components/Navbar.css */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f0f0f0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    margin-left: 20px;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+    position: relative;
+  }
+  
+  .navbar-links a:hover {
+    color: #a5a5a5;
+  }
+  
+  /* Dropdown menu */
+  .navbar-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0; /* Align dropdown to the left */
+    background-color: #1c1c1c;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #f0f0f0;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    color: #a5a5a5;
+  }
+  

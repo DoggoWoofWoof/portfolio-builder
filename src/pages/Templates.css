@@ -1,0 +1,25 @@
+/* src/pages/Templates.css */
+
+.template-list {
+    display: flex;
+    justify-content: space-between; /* Space out the template boxes */
+    flex-wrap: wrap; /* Allow wrapping to new lines if necessary */
+    margin: 20px 0;
+  }
+  
+  .template-box {
+    flex: 1; /* Make template boxes flexible */
+    margin: 10px; /* Space around the boxes */
+    padding: 15px; /* Padding inside the boxes */
+    border: 1px solid #ccc; /* Border around the boxes */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s; /* Smooth transform on hover */
+  }
+  
+  .template-box:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  

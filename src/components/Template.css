@@ -1,0 +1,25 @@
+/* src/components/Template.css */
+.template-container {
+    display: flex;
+    justify-content: space-around; /* Space the templates evenly */
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+  
+  .template-box {
+    flex: 1; /* Allow boxes to grow */
+    margin: 0 10px; /* Add space between boxes */
+    cursor: pointer; /* Change cursor on hover */
+    border: 1px solid #ccc; /* Optional: add a border for visual clarity */
+    border-radius: 5px; /* Optional: round corners */
+    padding: 10px; /* Optional: padding for better spacing */
+    transition: box-shadow 0.3s; /* Optional: add transition for hover effect */
+  }
+  
+  .template-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  .preview-window {
+    margin-top: 10px; /* Add some space above preview */
+  }
+  

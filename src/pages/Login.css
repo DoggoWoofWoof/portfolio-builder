@@ -1,0 +1,45 @@
+/* src/pages/Login.css */
+.signup-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #3c2a24;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .signup-form label {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #a05b4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
